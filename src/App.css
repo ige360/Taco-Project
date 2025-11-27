@@ -1,0 +1,50 @@
+.main-container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    margin: 0 10px;
+    padding: 30px;
+    border-radius: 50%;
+    background-color: #ecf0f1;
+}
+
+i {
+    font-size: 4rem;
+    color: #2c3e50;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+}
+
+.main-container > div > ul {
+    text-align: center;
+    border-radius: 5px;
+    background-color: #f368e0;
+    padding: 30px 0;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.choice {
+    color: #341f97;
+}
+
+h2 {
+    color: #1e3799;
+}
